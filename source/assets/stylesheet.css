@@ -1,0 +1,80 @@
+.navbar {
+  background-color: white;
+  height: 70px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  z-index: 500;
+}
+
+.container {
+  width: 100%;
+  padding: 50px 120px 0px 120px;
+}
+
+.first-banner {
+  margin-bottom: 0px;
+}
+
+.second-banner {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+h1 {
+  color: #041730;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+p {
+  color: #E4E8ED;
+  font-family: font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+
+.card-banner {
+  align-items: left;
+  margin: 50px 50px 0px 50px;
+}
+
+.image-banner img {
+  height: 70px;
+  align-items: left;
+}
+
+.footer {
+  background-color:  #041730;
+}
+
+.container-grey {
+  background-color: #E4E8ED;
+}
+
+.button-techadvice {
+  padding: 16px 14px;
+  border-radius: 4px;
+  font-family: font-family: 'Lato', sans-serif;
+  margin: 20px 0px;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  background: #4268F0;
+  color:white;
+}
+.button-techadvice:hover {
+  text-decoration: none;
+  color: #1F4287;
+}
+
+.logo-companies {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px 80px 80px;
+  margin: 0 auto;
+
+}
