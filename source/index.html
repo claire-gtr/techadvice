@@ -4,73 +4,97 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
     <title>Techadvice</title>
     <meta name="description" content="TECHADVICE">
   </head>
   <body>
 
     <div class="navbar">
-      <img src="assets/images/logo-techadvice-horizontal.png" alt="Techadvice logo" style="height: 60px;">
+      <img src="assets/images/logo-techadvice-horizontal.png" alt="Techadvice logo" style="height: 80px;">
     </div>
 
     <div class="container first-banner">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
+      <div class="row flex-column-reverse flex-md-row">
+        <div class="col">
           <div class="card-banner">
-            <h1> Enfin, le conseil financier pour tous.</h1>
-            <p>En 3 mois, déployez votre app de conseil financier pour tous vos clients.</p>
+            <h1 class="text-center text-md-left"> Enfin, le conseil financier pour tous.</h1>
+            <p class="text-center text-md-left">En 3 mois, déployez votre app de conseil financier pour tous vos clients.</p>
             <!-- Button trigger modal -->
-          <button type="button" class="button-techadvice" data-toggle="modal" data-target="#exampleModal">
-            Demander une démo
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="text-center text-md-left">
+              <button type="button" class="button-techadvice" data-toggle="modal" data-target="#exampleModal">
+                Demander une démo
+              </button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-center" id="exampleModalLabel"></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <iframe height="587"
+                      allowTransparency="true"
+                      frameborder="0"
+                      scrolling="no"
+                      style="width:100%;border:none"
+                      src="https://clairegautier.wufoo.com/forms/mira58y18vvtgs/">
+                      <a href="https://clairegautier.wufoo.com/forms/mira58y18vvtgs/">
+                      </a>
+                    </iframe>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="button-techadvice" data-dismiss="modal">Annuler</button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-
-
+        </div>
+        <div class="col">
+          <div class="text-center">
+            <img src="assets/images/iphone_illu.png" alt="iPhone illustration" style="height: 350px;">
           </div>
         </div>
-        <div class="col-xs-12 col-sm-6 align-items-right">
-          <img src="assets/images/iphone_illu.png" alt="iPhone illustration" style="height: 350px;">
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="text-center banner-title"> Déploiement express. En 3 mois.</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 evo-card">
+          <h2>Analyse</h2>
+          <p>Nous analysons votre organisation pour mieux comprendre votre besoin de conseil en investissement.</p>
+        </div>
+        <div class="col-md-4 evo-card">
+          <h2>Mise en place</h2>
+          <p>Nous mettons en place votre app qui permettra de délivrer du conseil financier à tous vos clients.</p>
+        </div>
+        <div class="col-md-4 evo-card">
+          <h2>Lancement</h2>
+          <p>Ça y est ! Vos clients sont prêts à recevoir leur 1er conseil d’investissement via leur application.</p>
         </div>
       </div>
     </div>
 
-    <div class="container second-banner">
-      <div class="row">
-          <h1 class="text-center"> Déploiement express. En 3 mois.</h1>
-      </div>
-    </div>
 
-
-    <div class="container container-grey">
+    <div class="container-fluid container-grey">
+      <div class="container">
       <div class="row">
-        <h1 class="text-center"> Conseillez tous vos clients. Tous.</h1>
+        <div class="col">
+          <h1 class="text-center banner-title">Conseillez tous vos clients. Tous.</h1>
+        </div>
       </div>
 
       <div class="row">
@@ -79,54 +103,65 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsum ipsam est voluptates eligendi culpa. Incidunt minima, vero velit cupiditate, ea voluptas commodi fuga, optio earum veritatis repellendus. Corrupti, libero?</p>
         </div>
         <div class="col-xs-12 col-sm-4">
-          <h2> Mise en place </h2>
+          <h2> Exécution des ordres </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed expedita tempora, id ut sequi qui laborum esse sunt, tenetur eos non, est vitae labore mollitia, tempore dignissimos animi quia recusandae.</p>
         </div>
         <div class="col-xs-12 col-sm-4">
-          <h2> Lancement </h2>
+          <h2> Suivi du porte-feuille </h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, adipisci, similique. Deserunt dolorum sint odit praesentium rerum, molestiae commodi molestias voluptatum autem iure, enim quo impedit cumque minus laborum et!</p>
         </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <div class="title-banner">
-            <h1> Enfin, le conseil financier pour tous.</h1>
-          </div>
-          <div class="text-banner">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, adipisci, similique. Deserunt dolorum sint odit praesentium rerum, molestiae commodi molestias voluptatum autem iure, enim quo impedit cumque minus laborum et!</p>
-          </div>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <img src="assets/images/smiling-woman-device.png" alt="similing-woman-device" style="height: 200px;">
-        </div>
-      </div>
-      <div class="row">
-        <div class="button-techadvice">Demander une démo</div>
-      </div>
-    </div>
-
-    <div class="container container-grey">
-      <div class="title-banner">
-        <h1 class="text-center"> Ils nous font confiance.</h1>
-      </div>
-      <div class="row">
-        <div class="logo-companies">
-          <div class="col-xs-12 col-sm-6">
-            <img src="assets/images/logo-societe-generale.png" alt="similing-woman-device" style="height: 30px;">
-          </div>
-          <div class="col-xs-12 col-sm-6">
-            <img src="assets/images/logo-schoolab.png" alt="similing-woman-device" style="height: 30px;">
-          </div>
-        </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="title-banner">
-        <h1 class="text-center">L'Équipe</h1>
+      <div class="row flex-column flex-md-row">
+        <div class="col">
+          <div class="text-center text-md-left">
+            <div class="banner-title">
+              <h1>Tarification à la demande</h1>
+            </div>
+            <div class="text-banner">
+              <p>La tarification de Tech Advice est calculée en fonction de votre utilisation de nos services. Vous payez uniquement ce que vous utilisez, et sans engagement.
+              <br> <br>
+              De cette manière, vous n'avez pas à subir le coût ni la complexité de la planification, de l'achat et de la maintenance d’une plateforme digitale de conseil : l'ensemble de ces frais fixes, habituellement élevés, est transformé en des coûts variables bien moindres.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col my-auto text-center">
+            <img src="assets/images/smiling-woman-device.png" alt="similing-woman-device" style="height: 300px; width: 300px; object-fit: cover; margin-top: 20px">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="text-center">
+            <div class="button-techadvice">Demander une démo</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid container-grey">
+      <div class="container">
+        <div class="text-center banner-title">
+          <h1> Ils nous font confiance.</h1>
+        </div>
+        <div class="row">
+          <div class="logo-companies">
+            <div class="col">
+              <img src="assets/images/logo-societe-generale.png" alt="similing-woman-device" style="height: 30px;">
+            </div>
+            <div class="col">
+              <img src="assets/images/logo-schoolab.png" alt="similing-woman-device" style="height: 30px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="banner-title text-center">
+        <h1>L'Équipe</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed aperiam ducimus ratione quo vel soluta? Quas, sed ad totam aliquam blanditiis quidem nisi magnam inventore consequuntur, deleniti illum hic ipsum!</p>
       </div>
       <div class="row">
@@ -144,23 +179,40 @@
         </div>
       </div>
       <div class="row">
-        <div class="button-techadvice">Demander une démo</div>
+        <div class="col">
+          <div class="text-center">
+            <div class="button-techadvice">Demander une démo</div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="footer">
-      <img src="assets/images/logo-techadvice.png" alt="Techadvice" style="height: 50px;">
-      <p>Contact</p>
-      <p>Email</p>
-      <p>Adresse</p>
+    <div class="container-fluid container-blue text-center">
+      <div class="container">
+        <img src="assets/images/logo-techadvice.png" alt="Techadvice" style="height: 60px;">
+        <br><br>
+        <div class="contact-div ">
+          <div class="contact-content">
+            <h6>Contact</h6>
+          </div>
+        </div>
+        <br>
+        <div class="contact-div d-flex justify-content-center">
+          <div class="contact-title">
+            <p>Email</p> <h6>team@techadvice.com</h6>
+          </div>
+        </div>
+        <br>
+        <div class="contact-div d-flex justify-content-center">
+          <div class="contact-title">
+            <p>Adresse</p> <h6>Schoolab, 21 rue de Cléry - 75002 Paris</h6>
+          </div>
+        </div>
+      </div>
     </div>
 
-  </body>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script>
-      $('#myModal').on('shown.bs.modal', function () {
-      $('#myInput').trigger('focus')
-      })
-    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
 </html>
