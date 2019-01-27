@@ -131,112 +131,6 @@ a.button-techadvice:hover {
   margin-top: 35px;
 }
 
-html {
-  box-sizing: border-box;
-}
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-.steps-header {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.steps-timeline {
-  outline: 1px dashed rgba(255, 0, 0, 0);
-}
-@media screen and (max-width: 575px) {
-  .steps-timeline {
-    border-left: 5px solid #E4E8ED;
-    margin-left: 25px;
-  }
-}
-@media screen and (min-width: 576px) {
-  .steps-timeline {
-    border-top: 5px solid #E4E8ED;
-    padding-top: 20px;
-    margin-top: 40px;
-    margin-left: 16.65%;
-    margin-right: 16.65%;
-  }
-}
-.steps-timeline:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.steps-one, .steps-two, .steps-three {
-  outline: 1px dashed rgba(0, 128, 0, 0);
-}
-@media screen and (max-width: 575px) {
-  .steps-one, .steps-two, .steps-three {
-    margin-left: -25px;
-  }
-}
-@media screen and (min-width: 576px) {
-  .steps-one, .steps-two, .steps-three {
-    float: left;
-    width: 33%;
-    margin-top: -50px;
-  }
-}
-@media screen and (max-width: 575px) {
-  .steps-one, .steps-two {
-    padding-bottom: 40px;
-  }
-}
-@media screen and (min-width: 576px) {
-  .steps-one {
-    margin-left: -16.65%;
-    margin-right: 16.65%;
-  }
-}
-@media screen and (max-width: 575px) {
-  .steps-three {
-    margin-bottom: -100%;
-  }
-}
-@media screen and (min-width: 576px) {
-  .steps-three {
-    margin-left: 16.65%;
-    margin-right: -16.65%;
-  }
-}
-.steps-img {
-  display: block;
-  margin: auto;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-}
-@media screen and (max-width: 575px) {
-  .steps-img {
-    float: left;
-    margin-right: 40px;
-  }
-}
-.steps-name, .steps-description {
-  margin: auto;
-  margin-bottom: 0.5rem;
-}
-
-.steps-name {
-  margin-top: 1.2rem;
-}
-
-@media screen and (min-width: 576px) {
-  .steps-name {
-  /*  text-align: center;*/
-  }
-}
-.steps-description {
-  overflow: hidden;
-}
-@media screen and (min-width: 576px) {
-  .steps-description {
-  }
-}
-
-
 .timeline {
   width: 100%;
   max-width: 800px;
@@ -246,9 +140,9 @@ html {
 .timeline:before {
   content: '';
   position: absolute;
-  top: 0px;
+  top: -15px;
   left: calc(33% + 15px);
-  bottom: 0px;
+  bottom: 50px;
   width: 8px;
   background: #F0F3F9;
 }
@@ -282,39 +176,7 @@ html {
   right: -32px;
   z-index: 99;
 }
-.entry .title h3 {
-  margin: 0;
-  font-size: 120%;
-}
-.entry .title p {
-  margin: 0;
-  font-size: 100%;
-}
-.entry .arrow {
-  clear: both;
-  text-align: left;
-  position: relative;
-}
-.entry .arrow .title {
-  margin-bottom: 0.5em;
-  float: left;
-  width: 33%;
-  padding-right: 30px;
-  text-align: right;
-  position: relative;
-}
-.entry .arrow .title:before {
-  content: '';
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  border: 4px solid #4268f0;
-  background-color: #ff3c41;
-  border-radius: 100%;
-  top: 15%;
-  right: -20px;
-  z-index: 99;
-}
+
 .entry .body {
   margin: 0 0 3em;
   float: right;
